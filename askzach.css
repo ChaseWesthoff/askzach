@@ -1,0 +1,114 @@
+body {
+    background-color: white;
+    align-content: center;
+    margin: 0px;
+
+}
+
+h1 {
+    color: black;
+    font-family: helvetica;
+    text-align: center;
+}
+
+ nav p {
+    font-family: helvetica;
+    font-size: 20px;
+    text-align: center;
+}
+
+footer p {
+    font-family: helvetica;
+    font-size: 15px;
+    text-align: center;
+}
+
+p.description{
+    font-family: helvetica;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+p.question{
+    font-family: helvetica;
+    font-size: 18px;
+    text-align: left;
+    font-style: italic;
+}
+
+p.answer{
+    font-family: helvetica;
+    font-size: 20px;
+    text-align: left;
+}
+
+ul {
+    font-family: helvetica;
+    font-size: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: pink;
+}
+
+nav li {
+    float: left;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #ff4c4c;
+    color: white;
+}
+
+
+li a:hover:not(.active) {
+    background-color: #ff6666;
+    color: white;
+}
+
+li a:hover {
+    background-color: #ff9999;
+}
+
+.container {
+    padding: auto;
+    margin: auto;
+  display: table;
+  text-align: center;
+  width: 80%;
+}
+
+.row {
+    text-align: center;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;    
+    font-family: helvetica;
+    font-size: 10px;
+    text-align: center;
+}
+
