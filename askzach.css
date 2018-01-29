@@ -90,6 +90,16 @@ li a:hover {
     background-color: #ff9999;
 }
 
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 50px;
+
+    background-color: white;
+}
+
+
 .container {
     padding: auto;
     margin: auto;
