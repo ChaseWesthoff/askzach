@@ -112,6 +112,21 @@ li a:hover {
     text-align: center;
 }
 
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: white;
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+.grid-item {
+  background-color: white;
+  font-size: 30px;
+  text-align: center;
+}
+
+
 .footer {
     background-color: lightpink;
     left: 0;
