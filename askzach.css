@@ -135,6 +135,7 @@ li a:hover {
     padding: 0;
     overflow: hidden;
     width: 100%;
+    position: fixed;
     color: black;    
     font-family: helvetica;
     font-size: 10px;
