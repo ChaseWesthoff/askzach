@@ -1,0 +1,150 @@
+body {
+    background-color: white;
+    align-content: center;
+    margin: 0px;
+
+}
+div {
+    align-content: center;
+}
+script {
+    align-self: center;
+}
+
+h1 {
+    color: black;
+    font-family: helvetica;
+    text-align: center;
+}
+
+ nav p {
+    font-family: helvetica;
+    font-size: 20px;
+    text-align: center;
+}
+
+footer p {
+    font-family: helvetica;
+    font-size: 15px;
+    text-align: center;
+}
+
+p.description{
+    font-family: helvetica;
+    font-size: 20px;
+    text-align: left;
+}
+
+
+p.question{
+    font-family: helvetica;
+    font-size: 18px;
+    text-align: left;
+    font-style: italic;
+}
+
+p.answer{
+    font-family: helvetica;
+    font-size: 20px;
+    text-align: left;
+}
+
+ul {
+    font-family: helvetica;
+    font-size: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightblue;
+}
+
+nav li {
+    float: left;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: blue;
+    color: white;
+}
+
+
+li a:hover:not(.active) {
+    background-color: darkblue;
+    color: white;
+}
+
+li a:hover {
+    background-color: darkblue;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 50px;
+    text-align: center;
+    background-color: white;
+}
+
+
+.container {
+    padding: auto;
+    margin: auto;
+  display: table;
+  text-align: center;
+  width: 80%;
+}
+
+.row {
+    text-align: center;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: white;
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+.grid-item {
+  background-color: white;
+  font-size: 30px;
+  text-align: center;
+}
+
+
+.footer {
+    background-color: lightpink;
+    left: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    position: fixed;
+    color: black;    
+    font-family: helvetica;
+    font-size: 10px;
+    text-align: center;
+}
+
