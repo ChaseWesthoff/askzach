@@ -5,6 +5,12 @@ body {
 
 }
 
+.boxed {
+    margin-left: 200px;
+    margin-right: 200px;
+  border: 3px solid lightpink ;
+}
+
 h1 {
     color: black;
     font-family: helvetica;
